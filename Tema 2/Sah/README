@@ -1,0 +1,6 @@
+In fisierul de intrare de la acest program se introduce numarul N
+care reprezinta marimea tablei de sah. Output-ul va fi format din
+coordonatele celor N regine puse pe tabla.
+
+Am implementat un algoritm de backtracking pentru a rezolva aceasta
+problema in C.

@@ -1,0 +1,14 @@
+In fisierul de intrare din aceasta problema se introduc pe prima
+line numerel N si K, reprezentand numarul de grafe si numarul de
+noduri din subgrafele necesare fiecarui graf. Pe urmatoarele linii
+vom avea V si E, respectiv numarul noduri si de muchii din graf.
+Pe urmatoarele E linii vom avea perechi de cate 2 numere reprezentand
+o muchie de la un nod la celalalt. Atentie muchiile se vor indexa de la 1.
+Se repeta acest proces de N ori, pentru cele N grafuri.
+
+Fisierul de iesire contine nodurile subgrafului pentru fiecare graf in parte
+in ordine izomorfa.
+
+Am implementat acest algoritm utilizand backtracking modificat si aranjamente
+de N luate cate K pentru fiecare graf, iar apoi am verificat sa vad daca sunt
+izomorfe intre ele.
